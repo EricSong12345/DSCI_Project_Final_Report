@@ -1,0 +1,17 @@
+Gaming has evolved much further than a Sunday evening past time since the 21st century. As of now, online gaming platforms provide rich opportunities to study player behavior and optimize user engagement strategies. The Pacific Laboratory for Artificial Intelligence (PLAI) at the University of British Columbia operates plaicraft.ai, a research initiative that collects detailed gameplay data from a Minecraft server. This data offers valuable insights that can help improve player retention and resource allocation.
+
+Understanding what motivates players to engage more deeply with a platform is a key figure to identify how to build strong gaming communities, for instance newsletters. Newsletter subscriptions represent an important form of player engagement, helping researchers maintain contact with participants and share updates about the project. By analyzing player characteristics and behavior patterns, we can determine which features best predict newsletter subscriptions.
+
+Thus our research questions is. **Can experience, played hours, and age predict if a player subscribes to a game newsletter in players.csv?** To answer this, we will use a knn classifier algorithm.
+
+We are using players,csv dataset collect by the Pacific Laboratory for Artificial Intelligence (PLAI) to relate whether the predictor variables selected will affect ones subscription status. The columns are as follows:
+
+	1. **experience**: Shows the player’s skill level (e.g., "Pro," "Amateur," "Veteran," "Regular").
+	2. **subscribe**: Indicates if the player subscribed to a newsletter (TRUE = yes, FALSE = no).
+	3. **hashedEmail**: A unique ID for each player (hashed email), links to sessions.csv
+	4. **played_hours**: Total hours the player has played on the server.
+	5. **name**: Player's name
+	6. **gender**: Player's gender
+	7. **Age**: Player's age in years
+
+Based on the list above, we will be using `experience`, `played_hours` and `Age` as predictors, to classify players on whether or not they are subscribed using the `subscribe` response variable.
